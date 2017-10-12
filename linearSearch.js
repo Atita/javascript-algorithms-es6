@@ -1,3 +1,6 @@
+/*
+ * By Anatoly Guaniezo 10.12.2017
+ */
 "use strict";
 
 function linearSearch(arr, n, x) {
