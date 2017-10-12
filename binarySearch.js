@@ -13,10 +13,10 @@ function binarySearch(arr, value) {
   let min = 0;
   let max = arr.length - 1;
   let mid;
-  //sort the array first
+
 
   //to do : add switch here for array content type (["a"/1])
-  arr.sort((a, b) => { return a - b });
+  arr.sort((a, b) => { return a - b }); //sort the array first
 
   //search mid 
   while (max >= min) {
