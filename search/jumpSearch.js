@@ -4,12 +4,12 @@
  *jump search
  *implemented in Javascript by Anatoly Guaniezo
  */
-function jumpSearch(arr, x) {
+const jumpSearch=(arr, x)=> {
 
-  var n = arr.length;
+  let n = arr.length;
 
-  var step = Math.floor(Math.sqrt(n));
-  var prev = 0;
+  let step = Math.floor(Math.sqrt(n));
+  let prev = 0;
   while (arr[Math.min(step, n) - 1] < x) {
     prev = step;
     step += Math.floor(Math.sqrt(n));
