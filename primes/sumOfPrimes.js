@@ -1,8 +1,8 @@
-function sumPrimes(num) {
+const sumPrimes=(num)=> {
 
-  var results = 0;
+let results = 0;
 
-  for (var i = 1; i <= num; i++) {
+  for (let i = 1; i <= num; i++) {
     if (isPrime(i)) {
       results += i;
     }
@@ -11,12 +11,12 @@ function sumPrimes(num) {
   return results;
 
 
-  function isPrime(n) {
+  const isPrime=(n)=> {
 
     if (n == 1) {
       return false;
     }
-    for (var i = 2; i <= n / 2; i++) {
+    for (let i = 2; i <= n / 2; i++) {
 
       if (n % i == 0) {
         return false;
