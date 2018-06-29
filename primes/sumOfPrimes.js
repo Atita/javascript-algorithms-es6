@@ -1,15 +1,13 @@
-const sumPrimes=(num)=> {
+  const sumPrimes=(num)=> {
 
-let results = 0;
+    let results = 0;
 
-  for (let i = 1; i <= num; i++) {
-    if (isPrime(i)) {
-      results += i;
+      for (let i = 1; i <= num; i++) {
+        if (isPrime(i)) {
+        results += i;
     }
   }
-
   return results;
-
 
   const isPrime=(n)=> {
 
@@ -22,11 +20,6 @@ let results = 0;
         return false;
       }
     }
-
     return true;
-
   }
-
-
-
 }
