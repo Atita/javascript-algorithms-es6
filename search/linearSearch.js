@@ -1,10 +1,6 @@
-/*
- * By Anatoly Guaniezo 10.12.2017
- */
 "use strict";
 
-function linearSearch(arr, n, x) {
-
+const linearSearch=(arr, n, x)=> {
   for (let i = 0; i < n; i++) {
     if (arr[i] == x) { return i };
   }
