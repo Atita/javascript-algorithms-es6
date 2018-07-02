@@ -1,4 +1,4 @@
-const isPrime=(n)=> {
+const isPrime = (n) => {
 
   if (n == 1) {
     return false;
@@ -10,4 +10,6 @@ const isPrime=(n)=> {
     }
   }
   return true;
+
 }
+module.export = isPrime;

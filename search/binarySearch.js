@@ -1,9 +1,5 @@
 "use strict";
 /* 
- *   Binary search implementation 
- *   By Anatoly Guaniezo last update 06.29.2018
- *   accepts unsorted array and sort contents
- *   
  *   @param arr = []
  *   @param  value= value to search
  *   @return mid = array index no., if not found return -1;
