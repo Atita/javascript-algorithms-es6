@@ -8,7 +8,7 @@
  *   @param  value= value to search
  *   @return mid = array index no., if not found return -1;
  */
-const binarySearch = (arr, value) = > {
+const binarySearch = (arr, value) => {
   //variables
   let min = 0;
   let max = arr.length - 1;
