@@ -1,3 +1,4 @@
+'use strict';
 const isPrime = (n) => {
 
   if (n == 1) {
@@ -10,6 +11,6 @@ const isPrime = (n) => {
     }
   }
   return true;
-
 }
-module.export = isPrime;
+
+export default isPrime;
