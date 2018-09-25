@@ -46,4 +46,4 @@ const quickSort = (arr, left, right) => {
 }
 let result = quickSort(arr, 0, arr.length - 1);
 
-module.exports = quickSort;
+export default quickSort;
