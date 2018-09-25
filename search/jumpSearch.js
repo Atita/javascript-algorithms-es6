@@ -28,4 +28,4 @@ const jumpSearch = (arr, x) => {
   return -1;
 }
 
-module.exports = jumpSearch;
+export default  jumpSearch;
