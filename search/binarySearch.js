@@ -22,4 +22,4 @@ const binarySearch = (arr, value) => {
   return -1; //returns -1 if not found
 }
 
-module.exports = binarySearch;
+export default  binarySearch;
