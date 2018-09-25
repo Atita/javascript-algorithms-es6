@@ -7,4 +7,4 @@ const linearSearch=(arr, n, x)=> {
   return -1;
 }
 
-module.exports = linearSearch;
+export default  linearSearch;
